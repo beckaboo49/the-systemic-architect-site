@@ -1,0 +1,34 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/aaEkmBrpPkMJRHwCbTHKxT.git",
+    "expiration": "2026-07-17T15:03:42.031Z",
+    "token": "art_v1_baf80f255c7076a68048ef208e74913e2a62bbc8?expires=1784300622",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "the-systemic-architect-site",
+  "path": "/home/ubuntu/the-systemic-architect-site",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "2pmoQdA3gUBbxEcUxbadyq",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "M3ZfMzZFfcRBrr3jbReQed",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "becka corcovelos",
+    "OWNER_OPEN_ID": "PpyhHqgTd74k4sVFQc9C3S",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "08eb820c-3873-438b-a66e-6e1ac9ce638e",
+    "VITE_APP_ID": "aaEkmBrpPkMJRHwCbTHKxT",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "The Systemic Architect - AI Compliance Handled",
+    "VITE_FRONTEND_FORGE_API_KEY": "kJcuDL7XNHvHJtdbFfmqH4",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}

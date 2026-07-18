@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { CheckCircle2 } from "lucide-react";
-
+import { CheckCircle2, Mail, ShoppingBag } from "lucide-react";
 /**
  * The Systemic Architect - Single Page Website
  * 
@@ -79,6 +78,19 @@ export default function Home() {
       <section className="bg-warm-ivory py-16 md:py-24 lg:py-32">
         <div className="container max-w-3xl mx-auto px-4">
           <div className="text-center space-y-6">
+            <div className="flex justify-center mb-4">
+              <svg width="220" height="130" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
+                <rect x="40" y="20" width="180" height="180" rx="4" fill="none" stroke="#474E60" strokeWidth="1.5" opacity="0.5" />
+                <rect x="100" y="70" width="180" height="180" rx="4" fill="none" stroke="#8FA89B" strokeWidth="1.5" opacity="0.75" />
+                <rect x="70" y="45" width="180" height="180" rx="4" fill="none" stroke="#B37D65" strokeWidth="2" />
+                <circle cx="70" cy="45" r="4" fill="#B37D65" />
+                <circle cx="250" cy="45" r="4" fill="#B37D65" />
+                <circle cx="70" cy="225" r="4" fill="#B37D65" />
+                <circle cx="250" cy="225" r="4" fill="#B37D65" />
+                <line x1="160" y1="45" x2="160" y2="225" stroke="#B37D65" strokeWidth="1" opacity="0.4" />
+                <line x1="70" y1="135" x2="250" y2="135" stroke="#B37D65" strokeWidth="1" opacity="0.4" />
+              </svg>
+            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy-ink leading-tight" style={{ fontFamily: '"Merriweather", serif' }}>
               AI Compliance Handled. Get On With Business.
             </h1>
@@ -95,9 +107,7 @@ export default function Home() {
           <div className="space-y-8">
             <div className="flex gap-4 md:gap-6">
               <div className="flex-shrink-0 pt-1">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-honey-brown">
-                  <span className="text-warm-ivory text-sm font-bold">•</span>
-                </div>
+                <CheckCircle2 className="h-6 w-6 text-honey-brown" />
               </div>
               <div>
                 <p className="text-base md:text-lg text-navy-ink leading-relaxed">
@@ -108,9 +118,7 @@ export default function Home() {
 
             <div className="flex gap-4 md:gap-6">
               <div className="flex-shrink-0 pt-1">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-honey-brown">
-                  <span className="text-warm-ivory text-sm font-bold">•</span>
-                </div>
+                <CheckCircle2 className="h-6 w-6 text-honey-brown" />
               </div>
               <div>
                 <p className="text-base md:text-lg text-navy-ink leading-relaxed">
@@ -121,9 +129,7 @@ export default function Home() {
 
             <div className="flex gap-4 md:gap-6">
               <div className="flex-shrink-0 pt-1">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-honey-brown">
-                  <span className="text-warm-ivory text-sm font-bold">•</span>
-                </div>
+                <CheckCircle2 className="h-6 w-6 text-honey-brown" />
               </div>
               <div>
                 <p className="text-base md:text-lg text-navy-ink leading-relaxed">
@@ -139,7 +145,13 @@ export default function Home() {
       <section className="bg-warm-ivory py-16 md:py-24">
         <div className="container max-w-2xl mx-auto px-4">
           <div className="space-y-8">
-            <div className="text-center space-y-3">
+            <div className="text-center space-y-3"> 
+              <div className="flex justify-center mb-2">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-honey-brown">
+                  <Mail className="h-6 w-6 text-warm-ivory" />
+                </div>
+              </div>
+
               <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
                 Get Compliance Clarity in Your Inbox
               </h2>
@@ -188,8 +200,13 @@ export default function Home() {
         <div className="container max-w-2xl mx-auto px-4">
           <div className="space-y-8">
             <div className="space-y-4">
+              <div className="flex justify-center mb-2">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-honey-brown">
+                  <ShoppingBag className="h-6 w-6 text-warm-ivory" />
+                </div>
+              </div>
               <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
-                Ready-to-Use AI Governance Kits
+                Compliance Tools You Can Use Today
               </h2>
               <p className="text-lg text-dark-denim leading-relaxed">
                 Ready-to-use policy kits, governance frameworks, and implementation resources built for small businesses adopting AI.
