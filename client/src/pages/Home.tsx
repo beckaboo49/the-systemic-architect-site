@@ -76,7 +76,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="bg-warm-ivory py-16 md:py-24 lg:py-32">
-        <div className="container max-w-3xl mx-auto px-4">
+        <div className="container mx-auto px-4">
           <div className="text-center space-y-6">
             <div className="flex justify-center mb-4">
               <svg width="220" height="130" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
@@ -103,7 +103,7 @@ export default function Home() {
 
       {/* Value Points Section */}
       <section className="bg-light-neutral py-16 md:py-24">
-        <div className="container max-w-3xl mx-auto px-4">
+        <div className="container mx-auto px-4">
           <div className="space-y-8">
             <div className="flex gap-4 md:gap-6">
               <div className="flex-shrink-0 pt-1">
@@ -143,7 +143,7 @@ export default function Home() {
 
       {/* Newsletter Sign-up Section */}
       <section className="bg-warm-ivory py-16 md:py-24">
-        <div className="container max-w-2xl mx-auto px-4">
+        <div className="container mx-auto px-4">
           <div className="space-y-8">
             <div className="text-center space-y-3"> 
               <div className="flex justify-center mb-2">
@@ -197,7 +197,7 @@ export default function Home() {
 
       {/* Payhip Products Section */}
       <section className="bg-light-neutral py-16 md:py-24">
-        <div className="container max-w-2xl mx-auto px-4">
+        <div className="container mx-auto px-4">
           <div className="space-y-8">
             <div className="space-y-4">
               <div className="flex justify-center mb-2">
