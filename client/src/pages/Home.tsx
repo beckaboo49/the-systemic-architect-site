@@ -69,7 +69,7 @@ export default function Home() {
       <header className="bg-warm-ivory border-b border-light-neutral">
         <div className="container py-6 md:py-8">
           <div className="flex items-center justify-center">
-            <img src="/logo.png" alt="The Systemic Architect" className="h-12 w-auto" />
+            <img src="/logo.png" alt="The Systemic Architect" className="h-24 w-auto" />
           </div>
         </div>
       </header>
