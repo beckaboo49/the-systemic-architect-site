@@ -95,6 +95,15 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="flex justify-center py-3">
+        <svg width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="10" x2="110" y2="10" stroke="#B37D65" strokeWidth="1" opacity="0.5" />
+          <circle cx="10" cy="10" r="3" fill="#B37D65" />
+          <circle cx="60" cy="10" r="3" fill="#8FA89B" />
+          <circle cx="110" cy="10" r="3" fill="#B37D65" />
+        </svg>
+      </div>
+
       {/* Value Points Section */}
       <section className="bg-silver-sage py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -135,6 +144,15 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="flex justify-center py-3">
+        <svg width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="10" x2="110" y2="10" stroke="#B37D65" strokeWidth="1" opacity="0.5" />
+          <circle cx="10" cy="10" r="3" fill="#B37D65" />
+          <circle cx="60" cy="10" r="3" fill="#8FA89B" />
+          <circle cx="110" cy="10" r="3" fill="#B37D65" />
+        </svg>
+      </div>
+
       {/* Newsletter Sign-up Section */}
       <section className="bg-navy-ink py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -142,10 +160,13 @@ export default function Home() {
             <div className="text-center space-y-3"> 
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="15" y="25" width="70" height="50" rx="3" fill="none" stroke="#B37D65" strokeWidth="2" />
-                  <path d="M15 25 L50 55 L85 25" fill="none" stroke="#8FA89B" strokeWidth="1.5" />
-                  <circle cx="15" cy="25" r="3" fill="#B37D65" />
-                  <circle cx="85" cy="25" r="3" fill="#B37D65" />
+                  <rect x="20" y="10" width="55" height="55" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <rect x="32" y="22" width="55" height="55" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <rect x="14" y="16" width="55" height="55" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <circle cx="14" cy="16" r="2.5" fill="#B37D65" />
+                  <circle cx="69" cy="16" r="2.5" fill="#B37D65" />
+                  <circle cx="14" cy="71" r="2.5" fill="#B37D65" />
+                  <circle cx="69" cy="71" r="2.5" fill="#B37D65" />
                 </svg>
               </div>
 
@@ -192,6 +213,15 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="flex justify-center py-3">
+        <svg width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="10" x2="110" y2="10" stroke="#B37D65" strokeWidth="1" opacity="0.5" />
+          <circle cx="10" cy="10" r="3" fill="#B37D65" />
+          <circle cx="60" cy="10" r="3" fill="#8FA89B" />
+          <circle cx="110" cy="10" r="3" fill="#B37D65" />
+        </svg>
+      </div>
+
       {/* Payhip Products Section */}
       <section className="bg-light-neutral py-16 md:py-24">
         <div className="container mx-auto px-4">
@@ -199,11 +229,13 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M35 35 Q35 15 50 15 Q65 15 65 35" fill="none" stroke="#474E60" strokeWidth="2" opacity="0.6" />
-                  <rect x="20" y="35" width="60" height="50" rx="3" fill="none" stroke="#B37D65" strokeWidth="2" />
-                  <line x1="20" y1="60" x2="80" y2="60" stroke="#8FA89B" strokeWidth="1" opacity="0.4" />
-                  <circle cx="20" cy="35" r="3" fill="#B37D65" />
-                  <circle cx="80" cy="35" r="3" fill="#B37D65" />
+                  <rect x="20" y="10" width="55" height="55" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <rect x="32" y="22" width="55" height="55" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <rect x="14" y="16" width="55" height="55" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <circle cx="14" cy="16" r="2.5" fill="#B37D65" />
+                  <circle cx="69" cy="16" r="2.5" fill="#B37D65" />
+                  <circle cx="14" cy="71" r="2.5" fill="#B37D65" />
+                  <circle cx="69" cy="71" r="2.5" fill="#B37D65" />
                 </svg>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
@@ -334,4 +366,5 @@ export default function Home() {
     </div>
   );
 }
- 
+
+             
