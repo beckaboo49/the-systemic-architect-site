@@ -208,7 +208,7 @@ export default function Home() {
             </div>
 
             <div>
-              <a href="#payhip-link-tbd">
+             <a href="https://payhip.com/TheSystemicArchitect/b-account" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-honey-brown text-warm-ivory hover:bg-navy-ink rounded-[6px] px-8 py-3 text-lg font-medium transition-colors duration-200">
                   Browse the Shop
                 </Button>
@@ -247,13 +247,13 @@ export default function Home() {
 
             {/* Social & Legal */}
             <div className="space-y-4">
-              <div className="space-y-2">
+             <div className="space-y-2">
                 <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
                   Follow
                 </h4>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                   
-                    <a href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
+                    href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -261,7 +261,7 @@ export default function Home() {
                     LinkedIn
                   </a>
                   
-                    <a href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
+                    href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -269,36 +269,39 @@ export default function Home() {
                     Instagram
                   </a>
                   
-                    <a href="https://www.facebook.com/profile.php?id=61574353970810"
+                    href="https://www.facebook.com/profile.php?id=61574353970810"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
                   >
                     Facebook
                   </a>
+                  
+                    href="https://systemicshift.substack.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+                  >
+                    Substack
+                  </a>
+                  
+                    href="https://www.pinterest.com/thesystemicarchitect/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+                  >
+                    Pinterest
+                  </a>
+                  
+                    href="https://payhip.com/TheSystemicArchitect/b-account"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+                  >
+                    Payhip
+                  </a>
                 </div>
               </div>
-
-              <div className="space-y-2">
-                <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
-                  Legal
-                </h4>
-                
-                  <a href="#privacy-policy"
-                  className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                >
-                  Privacy Policy
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-warm-ivory/20 mt-12 pt-8">
-            <p className="text-sm text-warm-ivory/60 text-center">
-              © {new Date().getFullYear()} The Systemic Architect. All rights reserved.
-            </p>
-          </div>
-        </div>
       </footer>
     </div>
   );
