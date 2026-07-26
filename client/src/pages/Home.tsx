@@ -98,9 +98,9 @@ export default function Home() {
       {/* Value Points Section */}
       <section className="bg-light-neutral py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="space-y-8">
-            <div className="flex gap-4 md:gap-6">
-              <div className="flex-shrink-0 pt-1">
+          <div className="grid gap-8 lg:grid-cols-3 lg:gap-10">
+            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
+              <div className="flex-shrink-0 pt-1 lg:pt-0">
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
@@ -110,8 +110,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex gap-4 md:gap-6">
-              <div className="flex-shrink-0 pt-1">
+            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
+              <div className="flex-shrink-0 pt-1 lg:pt-0">
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
@@ -121,8 +121,8 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex gap-4 md:gap-6">
-              <div className="flex-shrink-0 pt-1">
+            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
+              <div className="flex-shrink-0 pt-1 lg:pt-0">
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
@@ -304,5 +304,5 @@ export default function Home() {
   );
 }
 
-
-
+ 
+  
