@@ -50,7 +50,7 @@
 }
 
 :root {
-  /* TSA Brand Colors */
+  /* The Systemic Architect Brand Colors */
   --navy-ink: #1E2540;
   --dark-denim: #474E60;
   --silver-sage: #8FA89B;
@@ -199,7 +199,7 @@
     }
   }
 
-  /* TSA-specific components handled via inline styles */
+  /* The Systemic Architect-specific components handled via inline styles */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;600;700&display=swap');
