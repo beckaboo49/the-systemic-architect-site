@@ -146,7 +146,7 @@ export default function Home() {
                 </div>
               </div>
 
-             <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
+              <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
                 Get Compliance Clarity in Your Inbox
               </h2>
               <p className="text-lg md:text-xl text-dark-denim">
@@ -192,7 +192,7 @@ export default function Home() {
       {/* Payhip Products Section */}
       <section className="bg-light-neutral py-16 md:py-24">
         <div className="container mx-auto px-4">
-          <div className="space-y-8">
+          <div className="space-y-8 text-center">
             <div className="space-y-4">
               <div className="flex justify-center mb-2">
                 <div className="flex h-16 w-16 items-center justify-center rounded-full bg-honey-brown">
@@ -208,7 +208,7 @@ export default function Home() {
             </div>
 
             <div>
-              <a href="https://payhip.com/TheSystemicArchitect/" target="_blank" rel="noopener noreferrer">
+              <a href="https://payhip.com/TheSystemicArchitect" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-honey-brown text-warm-ivory hover:bg-navy-ink rounded-[6px] px-8 py-3 text-lg font-medium transition-colors duration-200">
                   Browse the Shop
                 </Button>
@@ -238,7 +238,7 @@ export default function Home() {
                 Contact
               </h4>
               
-                <a href="mailto:hello@thesystemicarchitect.com"
+                href="mailto:hello@thesystemicarchitect.com"
                 className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
               >
                 hello@thesystemicarchitect.com
@@ -253,7 +253,7 @@ export default function Home() {
                 </h4>
                 <div className="flex flex-wrap gap-4">
                   
-                    <a href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
+                    href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -261,7 +261,7 @@ export default function Home() {
                     LinkedIn
                   </a>
                   
-                    <a href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
+                    href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -269,7 +269,7 @@ export default function Home() {
                     Instagram
                   </a>
                   
-                    <a href="https://www.facebook.com/profile.php?id=61574353970810"
+                    href="https://www.facebook.com/profile.php?id=61574353970810"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -277,7 +277,7 @@ export default function Home() {
                     Facebook
                   </a>
                   
-                    <a href="https://systemicshift.substack.com"
+                    href="https://systemicshift.substack.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -285,7 +285,7 @@ export default function Home() {
                     Substack
                   </a>
                   
-                    <a href="https://www.pinterest.com/thesystemicarchitect/"
+                    href="https://www.pinterest.com/thesystemicarchitect/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -293,7 +293,7 @@ export default function Home() {
                     Pinterest
                   </a>
                   
-                    <a href="https://payhip.com/TheSystemicArchitect/"
+                    href="https://payhip.com/TheSystemicArchitect"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
@@ -308,7 +308,7 @@ export default function Home() {
                   Legal
                 </h4>
                 
-                  <a href="#privacy-policy"
+                  href="#privacy-policy"
                   className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
                 >
                   Privacy Policy
@@ -327,3 +327,5 @@ export default function Home() {
     </div>
   );
 }
+ 
+  
