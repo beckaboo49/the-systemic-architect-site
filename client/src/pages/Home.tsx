@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { CheckCircle2, Mail, ShoppingBag } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 /**
  * The Systemic Architect - Single Page Website
  * 
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* Value Points Section */}
-      <section className="bg-light-neutral py-16 md:py-24">
+      <section className="bg-silver-sage py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="grid gap-8 lg:grid-cols-3 lg:gap-10">
             <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
@@ -136,31 +136,34 @@ export default function Home() {
       </section>
 
       {/* Newsletter Sign-up Section */}
-      <section className="bg-warm-ivory py-16 md:py-24">
+      <section className="bg-navy-ink py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="space-y-8">
             <div className="text-center space-y-3"> 
               <div className="flex justify-center mb-2">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-honey-brown">
-                  <Mail className="h-7 w-7 text-warm-ivory" />
-                </div>
+                <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="15" y="25" width="70" height="50" rx="3" fill="none" stroke="#B37D65" strokeWidth="2" />
+                  <path d="M15 25 L50 55 L85 25" fill="none" stroke="#8FA89B" strokeWidth="1.5" />
+                  <circle cx="15" cy="25" r="3" fill="#B37D65" />
+                  <circle cx="85" cy="25" r="3" fill="#B37D65" />
+                </svg>
               </div>
 
-              <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
+              <h2 className="text-2xl md:text-3xl font-bold text-warm-ivory" style={{ fontFamily: '"Merriweather", serif' }}>
                 Get Compliance Clarity in Your Inbox
               </h2>
-              <p className="text-base md:text-lg text-dark-denim">
+              <p className="text-base md:text-lg text-silver-sage">
                 Clear, useful updates on AI compliance, written for people running a business, not lawyers.
               </p>
             </div>
 
             {submitted ? (
-              <div className="bg-light-neutral rounded-lg p-8 text-center space-y-3">
+              <div className="bg-dark-denim rounded-lg p-8 text-center space-y-3">
                 <CheckCircle2 className="h-9 w-9 text-honey-brown mx-auto" />
-                <p className="text-xl text-navy-ink font-medium">
+                <p className="text-xl text-warm-ivory font-medium">
                   Good to have you here.
                 </p>
-                <p className="text-base text-dark-denim">
+                <p className="text-base text-silver-sage">
                   Watch your inbox for The Systemic Shift newsletter.
                 </p>
               </div>
@@ -173,12 +176,12 @@ export default function Home() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    className="flex-1 bg-light-neutral border border-dark-denim text-navy-ink placeholder:text-dark-denim rounded-[6px] px-4 py-3 text-lg"
+                    className="flex-1 bg-dark-denim border border-silver-sage text-warm-ivory placeholder:text-silver-sage rounded-[6px] px-4 py-3 text-lg"
                   />
                   <Button
                     type="submit"
                     disabled={isLoading}
-                    className="bg-honey-brown text-warm-ivory hover:bg-navy-ink rounded-[6px] px-6 py-3 text-lg font-medium transition-colors duration-200 whitespace-nowrap"
+                    className="bg-honey-brown text-warm-ivory hover:bg-silver-sage hover:text-navy-ink rounded-[6px] px-6 py-3 text-lg font-medium transition-colors duration-200 whitespace-nowrap"
                   >
                     {isLoading ? "Subscribing..." : "Get The Systemic Shift"}
                   </Button>
@@ -195,9 +198,13 @@ export default function Home() {
           <div className="space-y-8 text-center">
             <div className="space-y-4">
               <div className="flex justify-center mb-2">
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-honey-brown">
-                  <ShoppingBag className="h-7 w-7 text-warm-ivory" />
-                </div>
+                <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M35 35 Q35 15 50 15 Q65 15 65 35" fill="none" stroke="#474E60" strokeWidth="2" opacity="0.6" />
+                  <rect x="20" y="35" width="60" height="50" rx="3" fill="none" stroke="#B37D65" strokeWidth="2" />
+                  <line x1="20" y1="60" x2="80" y2="60" stroke="#8FA89B" strokeWidth="1" opacity="0.4" />
+                  <circle cx="20" cy="35" r="3" fill="#B37D65" />
+                  <circle cx="80" cy="35" r="3" fill="#B37D65" />
+                </svg>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
                 Compliance Tools You Can Use Today
