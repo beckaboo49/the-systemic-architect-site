@@ -61,7 +61,7 @@ export default function Home() {
     <div className="min-h-screen bg-warm-ivory text-navy-ink" style={{ fontFamily: '"Open Sans", sans-serif' }}>
       {/* Header */}
       <header className="bg-warm-ivory border-b border-light-neutral">
-        <div className="container py-6 md:py-8">
+        <div className="container py-4 md:py-6">
           <div className="flex items-center justify-center">
             <img src="/logo.png?v=2" alt="The Systemic Architect" className="h-24 w-auto" />
           </div>
@@ -69,7 +69,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-warm-ivory py-16 md:py-24 lg:py-32">
+      <section className="bg-warm-ivory pt-8 md:pt-12 lg:pt-16 pb-16 md:pb-24 lg:pb-32">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-6">
             <div className="flex justify-center mb-4">
@@ -85,10 +85,10 @@ export default function Home() {
                 <line x1="70" y1="135" x2="250" y2="135" stroke="#B37D65" strokeWidth="1" opacity="0.4" />
               </svg>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy-ink leading-tight" style={{ fontFamily: '"Merriweather", serif' }}>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-ink leading-tight" style={{ fontFamily: '"Merriweather", serif' }}>
               AI Compliance Handled. Get On With Business.
             </h1>
-            <p className="text-lg md:text-xl text-dark-denim leading-relaxed">
+            <p className="text-base md:text-lg text-dark-denim leading-relaxed">
               Plain-language AI governance guidance for small businesses and solopreneurs, so you can adopt AI with confidence, not confusion.
             </p>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
-                <p className="text-base md:text-lg text-navy-ink leading-relaxed">
+                <p className="text-sm md:text-base text-navy-ink leading-relaxed">
                   Ready-to-use AI compliance and governance tools for small businesses, including policy kits, governance frameworks, and implementation resources
                 </p>
               </div>
@@ -115,7 +115,7 @@ export default function Home() {
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
-                <p className="text-base md:text-lg text-navy-ink leading-relaxed">
+                <p className="text-sm md:text-base text-navy-ink leading-relaxed">
                   Written in plain English, no legal background needed
                 </p>
               </div>
@@ -126,7 +126,7 @@ export default function Home() {
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
-                <p className="text-base md:text-lg text-navy-ink leading-relaxed">
+                <p className="text-sm md:text-base text-navy-ink leading-relaxed">
                   Built for small teams and solopreneurs, not enterprise compliance departments
                 </p>
               </div>
@@ -146,10 +146,10 @@ export default function Home() {
                 </div>
               </div>
 
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
+              <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
                 Get Compliance Clarity in Your Inbox
               </h2>
-              <p className="text-lg md:text-xl text-dark-denim">
+              <p className="text-base md:text-lg text-dark-denim">
                 Clear, useful updates on AI compliance, written for people running a business, not lawyers.
               </p>
             </div>
@@ -199,10 +199,10 @@ export default function Home() {
                   <ShoppingBag className="h-7 w-7 text-warm-ivory" />
                 </div>
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
+              <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
                 Compliance Tools You Can Use Today
               </h2>
-              <p className="text-lg md:text-xl text-dark-denim leading-relaxed">
+              <p className="text-base md:text-lg text-dark-denim leading-relaxed">
                 Ready-to-use policy kits, governance frameworks, and implementation resources built for small businesses adopting AI.
               </p>
             </div>
@@ -327,3 +327,4 @@ export default function Home() {
     </div>
   );
 }
+ 
