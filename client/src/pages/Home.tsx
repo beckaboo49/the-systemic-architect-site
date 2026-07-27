@@ -160,13 +160,14 @@ export default function Home() {
             <div className="text-center space-y-3"> 
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="20" y="10" width="55" height="55" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
-                  <rect x="32" y="22" width="55" height="55" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
-                  <rect x="14" y="16" width="55" height="55" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
-                  <circle cx="14" cy="16" r="2.5" fill="#B37D65" />
-                  <circle cx="69" cy="16" r="2.5" fill="#B37D65" />
-                  <circle cx="14" cy="71" r="2.5" fill="#B37D65" />
-                  <circle cx="69" cy="71" r="2.5" fill="#B37D65" />
+                  <rect x="8" y="22" width="55" height="38" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <rect x="22" y="38" width="55" height="38" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <rect x="15" y="30" width="55" height="38" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <path d="M15 30 L42.5 50 L70 30" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <circle cx="15" cy="30" r="2.5" fill="#B37D65" />
+                  <circle cx="70" cy="30" r="2.5" fill="#B37D65" />
+                  <circle cx="15" cy="68" r="2.5" fill="#B37D65" />
+                  <circle cx="70" cy="68" r="2.5" fill="#B37D65" />
                 </svg>
               </div>
 
@@ -229,13 +230,14 @@ export default function Home() {
             <div className="space-y-4">
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="20" y="10" width="55" height="55" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
-                  <rect x="32" y="22" width="55" height="55" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
-                  <rect x="14" y="16" width="55" height="55" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
-                  <circle cx="14" cy="16" r="2.5" fill="#B37D65" />
-                  <circle cx="69" cy="16" r="2.5" fill="#B37D65" />
-                  <circle cx="14" cy="71" r="2.5" fill="#B37D65" />
-                  <circle cx="69" cy="71" r="2.5" fill="#B37D65" />
+                  <rect x="11" y="34" width="55" height="40" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <rect x="25" y="50" width="55" height="40" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <rect x="18" y="42" width="55" height="40" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <path d="M33 42 Q33 26 45.5 26 Q58 26 58 42" fill="none" stroke="#B37D65" strokeWidth="1.8" />
+                  <circle cx="18" cy="42" r="2.5" fill="#B37D65" />
+                  <circle cx="73" cy="42" r="2.5" fill="#B37D65" />
+                  <circle cx="18" cy="82" r="2.5" fill="#B37D65" />
+                  <circle cx="73" cy="82" r="2.5" fill="#B37D65" />
                 </svg>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold text-navy-ink" style={{ fontFamily: '"Merriweather", serif' }}>
@@ -366,5 +368,3 @@ export default function Home() {
     </div>
   );
 }
-
-             
