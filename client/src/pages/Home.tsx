@@ -161,7 +161,9 @@ export default function Home() {
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                   <rect x="8" y="22" width="55" height="38" rx="2" fill="none" stroke="#FDF9F0" strokeWidth="1.2" opacity="0.35" />
+                  <path d="M8 22 L35.5 42 L63 22" fill="none" stroke="#FDF9F0" strokeWidth="1.2" opacity="0.35" />
                   <rect x="22" y="38" width="55" height="38" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <path d="M22 38 L49.5 58 L77 38" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
                   <rect x="15" y="30" width="55" height="38" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
                   <path d="M15 30 L42.5 50 L70 30" fill="none" stroke="#B37D65" strokeWidth="1.8" />
                   <circle cx="15" cy="30" r="2.5" fill="#B37D65" />
@@ -260,6 +262,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <div className="flex justify-center py-3">
+        <svg width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="10" x2="110" y2="10" stroke="#B37D65" strokeWidth="1" opacity="0.5" />
+          <circle cx="10" cy="10" r="3" fill="#B37D65" />
+          <circle cx="60" cy="10" r="3" fill="#8FA89B" />
+          <circle cx="110" cy="10" r="3" fill="#B37D65" />
+        </svg>
+      </div>
 
       {/* Footer */}
       <footer className="bg-navy-ink text-warm-ivory">
