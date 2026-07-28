@@ -121,7 +121,7 @@ export default function Home() {
 
             <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3 lg:mt-8">
               <div className="flex-shrink-0 pt-1 lg:pt-0">
-                <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
+                <CheckCircle32 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
                 <p className="text-sm md:text-base text-navy-ink leading-relaxed">
