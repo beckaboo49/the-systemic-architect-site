@@ -114,18 +114,18 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-sm md:text-base text-navy-ink leading-relaxed">
-                  Ready-to-use AI compliance and governance tools for small businesses, including policy kits, governance frameworks, and implementation resources
+                  Written in plain English, no legal background needed
                 </p>
               </div>
             </div>
 
             <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3 lg:mt-8">
               <div className="flex-shrink-0 pt-1 lg:pt-0">
-                <CheckCircle32 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
+                <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
               <div>
                 <p className="text-sm md:text-base text-navy-ink leading-relaxed">
-                  Written in plain English, no legal background needed
+                  Ready-to-use AI compliance and governance tools for small businesses, including policy kits, governance frameworks, and implementation resources
                 </p>
               </div>
             </div>
@@ -262,15 +262,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="flex justify-center py-3">
-        <svg width="120" height="20" viewBox="0 0 120 20" xmlns="http://www.w3.org/2000/svg">
-          <line x1="10" y1="10" x2="110" y2="10" stroke="#B37D65" strokeWidth="1" opacity="0.5" />
-          <circle cx="10" cy="10" r="3" fill="#B37D65" />
-          <circle cx="60" cy="10" r="3" fill="#8FA89B" />
-          <circle cx="110" cy="10" r="3" fill="#B37D65" />
-        </svg>
-      </div>
 
       {/* Footer */}
       <footer className="bg-navy-ink text-warm-ivory">
