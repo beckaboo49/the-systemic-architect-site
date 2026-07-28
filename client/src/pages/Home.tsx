@@ -119,7 +119,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
+            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3 lg:mt-8">
               <div className="flex-shrink-0 pt-1 lg:pt-0">
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3">
+            <div className="flex gap-4 md:gap-6 lg:flex-col lg:items-center lg:text-center lg:gap-3 lg:mt-16">
               <div className="flex-shrink-0 pt-1 lg:pt-0">
                 <CheckCircle2 className="h-7 w-7 md:h-8 md:w-8 text-honey-brown" />
               </div>
@@ -160,7 +160,7 @@ export default function Home() {
             <div className="text-center space-y-3"> 
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="8" y="22" width="55" height="38" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <rect x="8" y="22" width="55" height="38" rx="2" fill="none" stroke="#FDF9F0" strokeWidth="1.2" opacity="0.35" />
                   <rect x="22" y="38" width="55" height="38" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
                   <rect x="15" y="30" width="55" height="38" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
                   <path d="M15 30 L42.5 50 L70 30" fill="none" stroke="#B37D65" strokeWidth="1.8" />
@@ -231,7 +231,9 @@ export default function Home() {
               <div className="flex justify-center mb-2">
                 <svg width="64" height="64" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                   <rect x="11" y="34" width="55" height="40" rx="2" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
+                  <path d="M26 34 Q26 18 38.5 18 Q51 18 51 34" fill="none" stroke="#474E60" strokeWidth="1.2" opacity="0.5" />
                   <rect x="25" y="50" width="55" height="40" rx="2" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
+                  <path d="M40 50 Q40 34 52.5 34 Q65 34 65 50" fill="none" stroke="#8FA89B" strokeWidth="1.2" opacity="0.75" />
                   <rect x="18" y="42" width="55" height="40" rx="2" fill="none" stroke="#B37D65" strokeWidth="1.8" />
                   <path d="M33 42 Q33 26 45.5 26 Q58 26 58 42" fill="none" stroke="#B37D65" strokeWidth="1.8" />
                   <circle cx="18" cy="42" r="2.5" fill="#B37D65" />
@@ -367,6 +369,7 @@ export default function Home() {
       </footer>
     </div>
   );
-
-  
 }
+ 
+
+ 
