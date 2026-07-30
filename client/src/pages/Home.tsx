@@ -263,112 +263,122 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-navy-ink text-warm-ivory">
-        <div className="container py-12 md:py-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-            {/* Brand Info */}
-            <div className="space-y-2">
-              <h3 className="text-2xl font-bold text-warm-ivory" style={{ fontFamily: '"Merriweather", serif' }}>
-                The Systemic Architect
-              </h3>
-              <p className="text-base text-warm-ivory/80">
-                AI compliance handled. Get on with business.
-              </p>
-            </div>
+{/* Footer */}
+<footer className="bg-navy-ink text-warm-ivory">
+  <div className="container py-12 md:py-16">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+      {/* Brand Info */}
+      <div className="space-y-2">
+        <h3 className="text-2xl font-bold text-warm-ivory" style={{ fontFamily: '"Merriweather", serif' }}>
+          The Systemic Architect
+        </h3>
+        <p className="text-base text-warm-ivory/80">
+          AI compliance handled. Get on with business.
+        </p>
+      </div>
 
-            {/* Contact */}
-            <div className="space-y-2">
-              <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
-                Contact
-              </h4>
-              
-                <a href="mailto:hello@thesystemicarchitect.com"
-                className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-              >
-                hello@thesystemicarchitect.com
-              </a>
-            </div>
+      {/* Contact */}
+      <div className="space-y-2">
+        <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
+          Contact
+        </h4>
+        
+          <a href="mailto:hello@thesystemicarchitect.com"
+          className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+        >
+          hello@thesystemicarchitect.com
+        </a>
+      </div>
 
-            {/* Social & Legal */}
-            <div className="space-y-4">
-              <div className="space-y-2">
-                <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
-                  Follow
-                </h4>
-                <div className="flex flex-wrap gap-4">
-                  
-                    <a href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    LinkedIn
-                  </a>
-                  
-                    <a href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    Instagram
-                  </a>
-                  
-                    <a href="https://www.facebook.com/profile.php?id=61574353970810"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    Facebook
-                  </a>
-                  
-                    <a href="https://systemicshift.substack.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    Substack
-                  </a>
-                  
-                    <a href="https://www.pinterest.com/thesystemicarchitect/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    Pinterest
-                  </a>
-                  
-                    <a href="https://payhip.com/TheSystemicArchitect"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                  >
-                    Payhip
-                  </a>
-                </div>
-              </div>
-
-              <div className="space-y-2">
-                <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
-                  Legal
-                </h4>
-                
-                  <a href="#privacy-policy"
-                  className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-                >
-                  Privacy Policy
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-warm-ivory/20 mt-12 pt-8">
-            <p className="text-sm text-warm-ivory/60 text-center">
-              © {new Date().getFullYear()} The Systemic Architect. All rights reserved.
-            </p>
+      {/* Social & Legal */}
+      <div className="space-y-4">
+        <div className="space-y-2">
+          <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
+            Follow
+          </h4>
+          <div className="flex flex-wrap gap-4">
+            
+              <a href="https://www.linkedin.com/in/rebecca-corcovelos-496847400"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              LinkedIn
+            </a>
+            
+              <a href="https://www.instagram.com/thesystemicarchitect?igsh=NTc4MTIwNjQ2YQ=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Instagram
+            </a>
+            
+              <a href="https://www.facebook.com/profile.php?id=61574353970810"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Facebook
+            </a>
+            
+              <a href="https://systemicshift.substack.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Substack
+            </a>
+            
+              <a href="https://www.pinterest.com/thesystemicarchitect/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Pinterest
+            </a>
+            
+              <a href="https://payhip.com/TheSystemicArchitect"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Payhip
+            </a>
           </div>
         </div>
-      </footer>
+
+        <div className="space-y-2">
+          <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
+            Legal
+          </h4>
+          <div className="flex flex-col gap-1">
+            <a href="/privacy-policy.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <a href="/terms-of-service.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+            >
+              Terms of Service
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="border-t border-warm-ivory/20 mt-12 pt-8">
+      <p className="text-sm text-warm-ivory/60 text-center">
+        © {new Date().getFullYear()} The Systemic Architect. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
     </div>
   );
 }
