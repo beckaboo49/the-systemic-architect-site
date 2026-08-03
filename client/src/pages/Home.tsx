@@ -352,21 +352,20 @@ export default function Home() {
           <h4 className="text-base font-bold text-warm-ivory uppercase tracking-wide" style={{ fontFamily: '"Merriweather", serif' }}>
             Legal
           </h4>
-          <div className="flex flex-col gap-1">
-            <a href="/privacy-policy.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-            >
-              Privacy Policy
-            </a>
-            <a href="/terms-of-service.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
-            >
-              Terms of Service
-            </a>
+         <a href="/PrivacyPolicy_TheSystemicArchitectWebsite.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+>
+  Privacy Policy
+</a>
+<a href="/TermsOfService_TheSystemicArchitectWebsite.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-base text-warm-ivory/80 hover:text-warm-ivory transition-colors"
+>
+  Terms of Service
+</a>
           </div>
         </div>
       </div>
